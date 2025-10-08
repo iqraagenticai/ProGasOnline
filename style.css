@@ -637,9 +637,13 @@ footer {
         gap: 40px;
     }
 
+    .services-grid {
+        gap: 40px;
+    }
+
     .service-pair {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 20px;
     }
     
     .service-pair:nth-child(even) .service-card,
@@ -648,13 +652,17 @@ footer {
     }
     
     .service-image {
-        height: 250px !important;
+        height: 200px !important;
         min-height: unset;
     }
 
     .service-image img {
         height: 100%;
         object-fit: cover;
+    }
+
+    .service-card {
+        padding: 25px;
     }
     
     .process-grid {
@@ -693,22 +701,30 @@ footer {
     }
 
     .services, .about, .contact, .process, .why-choose {
-        padding: 60px 0;
+        padding: 50px 0;
     }
 
     .section-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .stats-grid {
         grid-template-columns: 1fr;
     }
 
+    .services-grid {
+        gap: 30px;
+    }
+
+    .service-pair {
+        gap: 15px;
+    }
+
     .service-card {
-        padding: 25px;
+        padding: 20px;
     }
 
     .service-image {
-        height: 220px !important;
+        height: 180px !important;
     }
 }
